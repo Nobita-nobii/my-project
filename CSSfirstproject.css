@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+
+#top-sec {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-left: 125px;
+    margin-right: 130px; 
+    margin-bottom: 50px;
+}
+.last-img {
+    /* width:600px; */
+height: 580px;
+}
+
+
+#new-btn {
+    display: flex; 
+    flex-direction: row;
+    justify-content:space;
+    align-items: flex-start;
+    height: 80px;
+    margin-left: 67px;
+    margin-right: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.arrow {
+    width:45px;
+}
+#HABJ{
+   
+    margin-right: 30px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #bebdbb;
+    align-content: center;
+}
+#HABJ:hover{
+    color: black;
+    border-bottom: 3px solid #850785;
+}
+.impor-sec{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+}
+.middle-part{
+    /* justify-content: center; */
+    display: flex;
+}
+.logo{
+    margin-right: 180px;
+    margin-top: 30px;
+    height: 45px;
+    width: 110px;
+
+}
+.youraccount{
+    background-color: #FFD8DB;
+    border-radius: 20px;
+    color: #8e16df;
+    padding: 12px 24px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    font-weight: 600;
+}
+#dot-dot{
+    color: #670ef5;
+    width: 5px;
+    height: 1px;
+
+}
+.workplace {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    padding-left: 67px;
+    margin-bottom: 22px;
+    font-size: 50px;
+}
+
+.project{
+    font-family: 'Raleway', sans-serif;
+    color: #757170;
+    font-size: 14px;
+    margin-bottom: 22px;
+    padding-left: 67px;
+}
+#new_account{
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    font-weight: 600;
+    align-items: right;
+    margin-right: 20px;
+    background-color: #670ef5;
+    border-radius: 20px;
+    color: #f8f7f8;
+    padding: 12px 24px;
+    
+}
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: #F6F6F6;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    width: 320px;
+    margin-bottom: 10px;
+    margin-left: 67px;
+    margin-right: 100px;
+}
+ 
+.card-left{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: space;
+}
+ 
+.card-right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+ 
+.active-card{
+    background-color: #fff;
+    box-shadow: 0 0 15px grey;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-left: space;
+    border-radius: 8px;
+
+}
+ 
+.card-name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+ 
+.date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #C0C1BD; 
+}
+ 
+.dmm-icon{
+    height: 10px;
+    width: 20px;
+    border: 1px solid #FED7DA;
+    background-color: #FED7DA;
+    border-radius: 5px;
+}
+
+
+.card:hover{
+    background-color: #fff;
+    box-shadow: 0 0 20px gray;
+}
+.rectangle1 {
+    height: 10px;
+    width: 20px;
+    border: 1px solid #FED7DA;
+    background-color: #FED7DA;
+    border-radius: 5px;
+}
+.rectangle2 {
+    height: 10px;
+    width: 20px;
+    border: 1px solid #FD6534;
+    background-color: #FD6534;
+    border-radius: 5px;
+}
+.rectangle3 {
+    height: 10px;
+    width: 20px;
+    border: 1px solid #9FD196;
+    background-color: #9FD196;
+    border-radius: 5px;
+}
+.rectangle4 {
+    height: 10px;
+    width: 20px;
+    border: 1px solid #FFE4A1;
+    background-color: #FFE4A1;
+    border-radius: 5px;
+}
